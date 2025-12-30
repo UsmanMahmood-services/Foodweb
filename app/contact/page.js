@@ -14,10 +14,11 @@ const contact = () => {
           <img
             src="/img/deliverimg.jpg"
             alt="Delivery"
+            rel="preload"
             width={200}
             height={200}
             className="w-[30%]  md:w-[18%] h-auto min-w-1"
-            loading="lazy"
+            
           />
 
          

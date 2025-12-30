@@ -9,7 +9,7 @@ const Card = (props) => {
         src={props.img}
         alt={props.title}
         width={90}
-       loading='lazy'
+       rel="preload"
         className="rounded-lg my-4"
       />
       <h2 className='text-lg md:text-2xl text-amber-400 '>{props.title}</h2>

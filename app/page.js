@@ -13,6 +13,7 @@ export default function Home() {
           <Image
             src="/img/header 1.jpg"
             alt="Header"
+            rel="preload"
             fill
             className="object-cover"
             priority
