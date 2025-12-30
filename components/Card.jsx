@@ -13,7 +13,7 @@ const Card = (props) => {
         className="rounded-lg my-4"
       />
       <h2 className='text-lg md:text-2xl text-amber-400 '>{props.title}</h2>
-      <p className='text-sm md:lg'>{props.description}</p>
+      <p className='text-sm md:lg text-white'>{props.description}</p>
     </div>
   )
 }
